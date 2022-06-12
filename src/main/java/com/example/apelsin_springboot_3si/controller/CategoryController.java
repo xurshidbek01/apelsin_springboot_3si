@@ -33,4 +33,7 @@ public class CategoryController {
         categoryService.add(model, category);
         return "category/list";
     }
+
+    @GetMapping("/edit/{id}")
+    public String getEditPage(){return "category/edit";}
 }

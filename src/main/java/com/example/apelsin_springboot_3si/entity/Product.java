@@ -34,4 +34,5 @@ public class Product {
     @Column(length = 1024)
     private String photo;
 
+
 }
